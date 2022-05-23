@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      Diego Franco
+      Diego Franco - 29/11/2001
     </div>
   )
 }
