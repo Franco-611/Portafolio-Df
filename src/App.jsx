@@ -6,7 +6,10 @@ function App() {
 
   return (
     <div className="App">
-      Diego Franco - 29/11/2001
+      <text className='nombre'>Diego Franco</text>
+      <div className='otro'>
+        ¿Que lenguajes se?
+      </div>
     </div>
   )
 }

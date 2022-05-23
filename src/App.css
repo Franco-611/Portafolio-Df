@@ -1,7 +1,25 @@
 .App {
   width: 100vw;
-  height: 100vh;
-  background-color: grey;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  background-color: #7a7c7c;
+}
+.nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-size: 80px;
+  width: 100vw;
+  height: 100vh;
+  background-image:  linear-gradient(to top, #646668, #243444e0);
+  font-family: cursive;
+  font-size:1000%;
+  color: rgb(247, 247, 247);
+}
+.otro{
+  width: 100vh;
+  height: 280px;
 }
