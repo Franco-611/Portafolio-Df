@@ -1,15 +1,10 @@
-/* width */
 ::-webkit-scrollbar {
   width: 12px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: rgb(214, 214, 214);
   border-radius: 2px;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(100, 100, 100);
   border-radius: 2px;
@@ -30,12 +25,47 @@
   text-align: center;
   width: 100vw;
   height: 100vh;
-  background-image:  linear-gradient(to top, #646668, #243444e0);
+  background-image:  linear-gradient(to top, #646668, #3f3924e0);
+  /*background-image:  linear-gradient(to top, #646668, #243444e0);*/
   font-family: cursive;
   font-size:1000%;
   color: rgb(247, 247, 247);
 }
-.otro{
-  width: 100vh;
-  height: 280px;
+.descrip{
+  width: 100vmax;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-content: center;
+  padding-top: 30px;
+
+}
+.text{
+  font-family:cursive;
+  font-size:400%;
+  text-align: center;
+  color: #EDC16C;
+}
+.yo{
+  margin-top: 10px;
+  align-self: center;
+  width: 70%;
+  font-family:cursive;
+  font-size:200%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.TitProyectos{
+  width: 100vw;
+  height: 500px;
+  background-image: url('../img/Proyectos.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.PROY{
+  width: 100vw;
+  height: 1000px;
 }
