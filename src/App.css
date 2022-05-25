@@ -33,7 +33,7 @@
 }
 .descrip{
   width: 100vmax;
-  height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -49,6 +49,7 @@
 }
 .yo{
   margin-top: 10px;
+  margin-bottom: 45px;
   align-self: center;
   width: 70%;
   font-family:cursive;
@@ -68,4 +69,5 @@
 .PROY{
   width: 100vw;
   height: 1000px;
+  text-align: center;
 }
