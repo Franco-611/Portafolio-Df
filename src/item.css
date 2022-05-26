@@ -1,0 +1,22 @@
+.Item{
+    width: 60%;
+    height: 350px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 40%;
+    height: 330px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+}
+.descripcion{
+    width: 60%;
+    height: 330px;
+    background-color: green;
+}

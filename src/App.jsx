@@ -1,15 +1,21 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import './App.css'
+import Carusel from './Casurel'
 
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1000})
+  }, [])
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <text className='nombre'>Diego Franco</text>
+      <text data-aos='fade-down' className='nombre'>Diego Franco</text>
       <div className='descrip'>
         <text className='text'>Sobre mí</text>
-        <div className='yo'>
+        <div data-aos='fade-right' className='yo'>
           Soy un estudiante de la Universidad del Valle de Guatemala, actualemnte curso
           tercer año de la Ingeniería en Ciencias de la Computación y Tecnologías de la Información. 
           He desempeñado diferentes proyectos web tanto backend como frontend, manejo bases de 
@@ -23,7 +29,8 @@ function App() {
       </div>
       <div className='TitProyectos'/>
       <div className='PROY'>
-        PROYECTOS..........
+        <text className='text'>Proyectos</text>
+        <Carusel/>
       </div>
     </div>
   )
