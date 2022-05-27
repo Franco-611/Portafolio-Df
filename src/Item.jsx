@@ -7,7 +7,7 @@ const Item = ({clase, titulo, url, tet, link, sino}) => {
   
   return (
     <div class="Item">
-      <div className={clase} style={{backgroundImage: url}} >
+      <div className={clase} >
 
       </div>
       <div className='descripcion'>
