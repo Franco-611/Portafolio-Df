@@ -20,10 +20,10 @@ const Carusel = () => {
     <div class="container">
 
       <Carousel enableAutoPlay autoPlaySpeed={10000}>
-            <Item clase={'imagen'} titulo={'Calculadora'} url={`url('./img/calcu.png')`} tet={data[0]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen'} titulo={'Calculadora'} url={`url('./img/calcu.png')`} tet={data[0]} link={'https://super-churros-8ebb4f.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'Memoria'} url={`url('./img/memoria.png')`} tet={data[1]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
-            <Item clase={'imagen1'} titulo={'Laberinto'} url={`url('./img/laberinto.png')`} tet={data[2]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
-            <Item clase={'imagen3'}titulo={'Pixel Perfect'} url={`url('./img/sat.png')`} tet={data[3]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen1'} titulo={'Laberinto'} url={`url('./img/laberinto.png')`} tet={data[2]} link={'https://aesthetic-mooncake-56e2bd.netlify.app/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen3'}titulo={'Pixel Perfect'} url={`url('./img/sat.png')`} tet={data[3]} link={'https://sweet-centaur-b20c52.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'CSS Only'} url={`url('./img/cssonly.png')`} tet={data[4]} ></Item>
             <Item clase={'imagen2'} titulo={'Dinners Ready'} url={`url('./img/diners.png')`} tet={data[5]} link={'https://www.figma.com/proto/n3hrvdmhIbsDrzdMTCXtEw/Dinners-Ready?node-id=204%3A1039&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A1039'} sino={'Visita prototipo en figma'}></Item>
             <Item clase={'imagen3'} titulo={'Simulando Netflix'} url={`url('./img/netf.png')`} tet={data[6]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
