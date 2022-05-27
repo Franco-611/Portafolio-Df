@@ -20,7 +20,7 @@ const Carusel = () => {
     <div class="container">
 
       <Carousel enableAutoPlay autoPlaySpeed={10000}>
-            <Item clase={'imagen'} titulo={'Calculadora'} url={`url('../img/logo.png')`} tet={data[0]} link={'https://super-churros-8ebb4f.netlify.app/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen'} titulo={'Calculadora'} url={`url('../img/calcu.png')`} tet={data[0]} link={'https://super-churros-8ebb4f.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'Memoria'} url={`url('../img/memoria.png')`} tet={data[1]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen1'} titulo={'Laberinto'} url={`url('../img/laberinto.png')`} tet={data[2]} link={'https://aesthetic-mooncake-56e2bd.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen3'}titulo={'Pixel Perfect'} url={`url('../img/sat.png')`} tet={data[3]} link={'https://sweet-centaur-b20c52.netlify.app/'} sino={'Visitar proyecto'}></Item>
