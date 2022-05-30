@@ -32,6 +32,10 @@ function App() {
         <text className='text'>Proyectos</text>
         <Carusel/>
       </div>
+      <div className='LENGUA'>
+        <text className='text'>Lenguajes</text>
+
+      </div>
     </div>
   )
 }
