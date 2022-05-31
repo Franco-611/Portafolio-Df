@@ -45,9 +45,9 @@ function App() {
       <div className='descrip'>
         <text className='text'>Sobre mí</text>
         <div data-aos='fade-right' className='yo'>
-          Soy un estudiante de la Universidad del Valle de Guatemala, actualemnte curso
-          tercer año de la Ingeniería en Ciencias de la Computación y Tecnologías de la Información. 
-          He desempeñado diferentes proyectos web tanto backend como frontend, manejo bases de 
+          Soy un estudiante de la Universidad del Valle de Guatemala, actualmente curso
+          tercer año de Ingeniería en Ciencias de la Computación y Tecnologías de la Información. 
+          He realizado diferentes proyectos web tanto backend como frontend, manejo de bases de 
           datos y desarrollo de videojuegos.
           <br/>
           <br/>
