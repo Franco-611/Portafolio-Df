@@ -86,7 +86,6 @@
 .LENGUA{
   width: 100vw;
   height: 650px;
-  background-color: #646668;
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -151,17 +150,17 @@ li div{
   border-radius: 100px;
 }
 .menu .lista .tit{
-  color:#646668;
+  color:#7a7c7c;;
   font-size: 1px;
 }
 .menu .lista1 .tit{
-  color:#646668;
+  color:#7a7c7c;
   font-size: 1px;
 }
 .menu.active .lista{
   width: 800px;
   height: 250px;
-  background-color: #7a7c7c;
+  background-color: #646668;
   border-radius: 15px;
   transform: translateX(240%);
   padding-bottom: 20px;
@@ -169,7 +168,7 @@ li div{
 .menu.active .lista1{
   width: 800px;
   height: 250px;
-  background-color: #7a7c7c;
+  background-color: #646668;
   border-radius: 15px;
   transform: translateX(-240%);
   padding-bottom: 20px;
