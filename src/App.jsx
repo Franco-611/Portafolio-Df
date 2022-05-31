@@ -61,22 +61,33 @@ function App() {
         <text className='text'>Proyectos</text>
         <Carusel/>
       </div>
+      <div className='TitLenguajes'/>
       <div className='LENGUA'>
-        <text className='text'>Lenguajes</text>
+        <text className='text'></text>
         <div className='menu'>
           <div className='opt' onClick={toggle}>Lenguajes</div>
           <li style={{backgroundImage: `url(${java})`, backgroundSize: 'cover', backgroundPosition: 'center'}}> </li>
-          <li style={{backgroundImage: `url(${css})`, backgroundSize: 'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></li>
-          <li style={{backgroundImage: `url(${pyth})`, backgroundSize: 'cover', backgroundPosition: 'center'}}></li>
-          <li style={{backgroundImage: `url(${cplus})`, backgroundSize: 'cover', backgroundPosition: 'center'}}></li>
-          <li style={{backgroundImage: `url(${cc})`, backgroundSize: 'cover', backgroundPosition: 'center'}}></li>
-          <li style={{backgroundImage: `url(${js})`, backgroundSize: '90%', backgroundPosition: 'center'}}></li>
-          <li style={{backgroundImage: `url(${html})`, backgroundSize: '90%', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></li>
-          <li style={{backgroundImage: `url(${sql})`, backgroundSize: '90%', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}></li>
-          
-          <div>
+          <li> <div style={{backgroundImage: `url(${css})`, backgroundSize: 'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat', transform: 'rotate(315deg)'}}/></li>
+          <li><div style={{backgroundImage: `url(${pyth})`, backgroundSize: 'cover', backgroundPosition: 'center', transform: 'rotate(270deg)'}} /></li>
+          <li><div style={{backgroundImage: `url(${cplus})`, backgroundSize: 'cover', backgroundPosition: 'center', transform: 'rotate(223deg)'}} /></li>
+          <li><div style={{backgroundImage: `url(${cc})`, backgroundSize: 'cover', backgroundPosition: 'center', transform: 'rotate(180deg)'}}/></li>
+          <li><div style={{backgroundImage: `url(${js})`, backgroundSize: '90%', backgroundPosition: 'center', transform: 'rotate(135deg)'}}/></li>
+          <li><div style={{backgroundImage: `url(${html})`, backgroundSize: '90%', backgroundPosition:'center', backgroundRepeat:'no-repeat', transform: 'rotate(90deg)'}}/></li>
+          <li><div style={{backgroundImage: `url(${sql})`, backgroundSize: '90%', backgroundPosition:'center', backgroundRepeat:'no-repeat', transform: 'rotate(45deg)'}}/></li>
 
+          <div data-aos='fade-right' className='lista'>
+            <div className='tit'>C#</div>
+            <div className='tit'>Java Script</div>
+            <div className='tit'>HTML </div>
+            <div className='tit'>SQL</div>
           </div>
+          <div data-aos='fade-left' className='lista1'>
+            <div className='tit'>Java</div>
+            <div className='tit'>CSS</div>
+            <div className='tit'>Python</div>
+            <div className='tit'>C++</div>
+          </div>
+          
 
         </div>
 
