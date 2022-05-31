@@ -52,7 +52,7 @@ function App() {
           <br/>
           <br/>
           Me considero una persona bastante dedicada a la que le gusta aprovechar el tiempo al máximo. 
-          En mis timpos libres suelo practicar deportes especialmente el balonmano, en el cual me he enfocado los 
+          En mis tiempos libres suelo practicar deportes especialmente el balonmano, en el cual me he enfocado los 
           ultimos 10 años de mi vida.
         </div>
       </div>
