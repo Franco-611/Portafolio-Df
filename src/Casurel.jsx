@@ -20,7 +20,7 @@ const Carusel = () => {
     'Para este proyecto se replicó la pagina de la SAT gt. Se configuró un webpack  para trabajar con React , asi mismo se utiliza loadres de imagenes, emotion, babel y ESLint para que el código implementado fuese airbnb compliant.',
     'Para este proyecto se utilizó únicamente CSS con el fin de conocer a profundidad conceptos de este lenguaje  tales como posicionamiento y layout. Como se puede observar en la imagen el diseño que se llevo al html fue un stitch.',
     'Es una aplicación que busca ampliar las recetas que una persona pueda cocinar, pero se enfoca en los ingredientes que posee el usuario tiene a la mano. Para el desarrollo de esta app se está utilizando React Native con el fin de llegar a usuarios con sistema operativo tanto IOS como Android.',
-    'Este proyecto se realizó utilizando React para darle toda la estructura visual la cual tiene base en la plataforma Netflix. Se utilizó una instancia de AWS para montar la base de datos y que pudiera ingresarse desde cualquier PC. Por ultimo se implemento un API trabajada en python con la herramienta Flask para poder conectar las transacciones realizadas desde React con los datos que se encuentran en AWS',
+    'Este proyecto se realizó utilizando React para darle toda la estructura visual la cual tiene base en la plataforma Netflix. Por ultimo se implemento un API trabajada en python con la herramienta Flask para poder conectar las transacciones realizadas desde React con los datos que se encuentran en AWS.',
 ]
 
   
