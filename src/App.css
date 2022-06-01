@@ -44,12 +44,19 @@
   justify-content: top;
   align-content: center;
   padding-top: 30px;
+  padding-left: 80px;
 
 }
 .text{
   font-family:cursive;
   font-size:400%;
   text-align: center;
+  color: #EDC16C;
+}
+.text1{
+  font-family:cursive;
+  font-size:400%;
+  text-align: start;
   color: #EDC16C;
 }
 .yo{

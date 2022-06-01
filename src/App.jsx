@@ -60,7 +60,7 @@ function App() {
     <div className="App">
       <div data-aos='fade-down' className='nombre'>Diego Franco</div>
       <div className='descrip'>
-        <text className='text'>Sobre mí</text>
+        <text className='text1'>Sobre mí</text>
         <div className='me'>
           <div data-aos='fade-right' className='yo'>
             Soy un estudiante de la Universidad del Valle de Guatemala, actualmente curso
