@@ -1,5 +1,6 @@
 ::-webkit-scrollbar {
   width: 12px;
+  height: 10px;
 }
 ::-webkit-scrollbar-track {
   background: rgb(214, 214, 214);
@@ -8,6 +9,11 @@
 ::-webkit-scrollbar-thumb {
   background: rgb(56, 56, 56);
   border-radius: 2px;
+}
+@keyframes latidos2 {
+  from { transform: none; }
+  50% { transform: scale(1.02); }
+  to { transform: none; }
 }
 .App {
   width: 100vw;
@@ -75,6 +81,24 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.TitHerramientas{
+  width: 100vw;
+  height: 500px;
+  background-image: url('../img/herramientas.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.TitContact{
+  width: 100vw;
+  height: 500px;
+  background-image: url('../img/contact.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .PROY{
   display: flex;
   flex-direction: column;
@@ -135,14 +159,11 @@
   font-family:cursive;
   color:#EDC16C;
   font-size: 250%;
+  animation: latidos2 .5s infinite
 }
 .menu.active .opt{
   transform: rotate(360deg);
-}
-.por{
-  width: 100vw;
-  height: 650px;
-  background-color: #646668;
+  animation: none
 }
 li div{
   width: 100px;
@@ -180,4 +201,25 @@ li div{
 .menu.active .lista1 .tit{
   color: #edb16c;
   font-size:200%;
+}
+.HERRA{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.final{
+  width: 100vw;
+  height: 725px;
+  background-image:  linear-gradient(to bottom, #646668, #3f3924e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: cursive;
+  font-size:800%;
+  color: rgb(247, 247, 247);
 }

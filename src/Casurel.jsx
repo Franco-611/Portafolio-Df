@@ -27,7 +27,7 @@ const Carusel = () => {
   return (
     <div class="container">
 
-      <Carousel enableAutoPlay autoPlaySpeed={10000}>
+      <Carousel>
             <Item clase={'imagen'} titulo={'Calculadora'} url={calcu} tet={data[0]} link={'https://super-churros-8ebb4f.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'Memoria'} url={memoria} tet={data[1]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen1'} titulo={'Laberinto'} url={laberinto} tet={data[2]} link={'https://aesthetic-mooncake-56e2bd.netlify.app/'} sino={'Visitar proyecto'}></Item>

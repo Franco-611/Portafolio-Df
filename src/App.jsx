@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import './App.css'
@@ -11,6 +11,23 @@ import cc from '../img/cmas.png'
 import js from '../img/js.png'
 import html from '../img/html.png'
 import sql from '../img/sql.png'
+import Herramienta from './Herramienta'
+import git from '../img/git.png'
+import rt from '../img/react.png'
+import rtN from '../img/reactnative.png'
+import post from '../img/post.png'
+import figma from '../img/figma.png'
+import unit from '../img/unity.png'
+import db from '../img/db.png'
+import neo from '../img/noe.png'
+import heidi from '../img/heidi.png'
+import lucid from '../img/lucid.png'
+import esl from '../img/eslint.png'
+import as from '../img/as.png'
+import node from '../img/node.png'
+import trello from '../img/trello.png'
+import vite from '../img/vite.png'
+import netli from '../img/neti.png'
 
 
 function App() {
@@ -41,7 +58,7 @@ function App() {
 
   return (
     <div className="App">
-      <text data-aos='fade-down' className='nombre'>Diego Franco</text>
+      <div data-aos='fade-down' className='nombre'>Diego Franco</div>
       <div className='descrip'>
         <text className='text'>Sobre mí</text>
         <div data-aos='fade-right' className='yo'>
@@ -88,11 +105,18 @@ function App() {
             <div className='tit'>C++</div>
           </div>
           
-
         </div>
-
       </div>
-      <div className='por'>hols</div>
+      <div className='TitHerramientas'/>
+      <div className='HERRA'>
+        <text className='text'>Herramientas</text>
+        <Herramienta titulo={'GitHub'} url1={git} titulo1={'React'} url2={rt} titulo2={'Node'} url3={node} titulo3={'Postgresql'} url4={post}/>
+        <Herramienta titulo={'Figma'} url1={figma} titulo1={'Unity'} url2={unit} titulo2={'DBeaver'} url3={db} titulo3={'Neo4j'} url4={neo}/>
+        <Herramienta titulo={'HeidiSQL'} url1={heidi} titulo1={'LucidChart'} url2={lucid} titulo2={'ESLint'} url3={esl} titulo3={'Android Studio'} url4={as}/>
+        <Herramienta titulo={'Trello'} url1={trello} titulo1={'Vite'} url2={vite} titulo2={'Netlify'} url3={netli} titulo3={'React Native'} url4={rtN}/>
+      </div>
+      <div className='TitContact'/>
+      <div className='final'>diegofrancopacay@gmail.com</div>
     </div>
   )
 }
