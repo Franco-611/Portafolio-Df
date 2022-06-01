@@ -1,6 +1,5 @@
 ::-webkit-scrollbar {
   width: 12px;
-  height: 10px;
 }
 ::-webkit-scrollbar-track {
   background: rgb(214, 214, 214);
@@ -57,10 +56,10 @@
   margin-top: 10px;
   margin-bottom: 45px;
   align-self: center;
-  width: 70%;
+  width: 60%;
   font-family:cursive;
   font-size:200%;
-  text-align: center;
+  text-align: justify;
   color: rgb(255, 255, 255);
 }
 .TitProyectos{
@@ -218,8 +217,28 @@ li div{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.correo{
+  width: 90%;
   text-align: center;
   font-family: cursive;
-  font-size:800%;
+  font-size:500%;
   color: rgb(247, 247, 247);
+
 }
+.foto{
+  width: 30%;
+  height: 350px;
+  background-image: url('../img/foto.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 300%;
+}
+.me{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+

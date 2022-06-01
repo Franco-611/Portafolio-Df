@@ -61,16 +61,19 @@ function App() {
       <div data-aos='fade-down' className='nombre'>Diego Franco</div>
       <div className='descrip'>
         <text className='text'>Sobre mí</text>
-        <div data-aos='fade-right' className='yo'>
-          Soy un estudiante de la Universidad del Valle de Guatemala, actualmente curso
-          tercer año de Ingeniería en Ciencias de la Computación y Tecnologías de la Información. 
-          He realizado diferentes proyectos web tanto backend como frontend, manejo de bases de 
-          datos y desarrollo de videojuegos.
-          <br/>
-          <br/>
-          Me considero una persona bastante dedicada a la que le gusta aprovechar el tiempo al máximo. 
-          En mis tiempos libres suelo practicar deportes especialmente el balonmano, en el cual me he enfocado los 
-          ultimos 10 años de mi vida.
+        <div className='me'>
+          <div data-aos='fade-right' className='yo'>
+            Soy un estudiante de la Universidad del Valle de Guatemala, actualmente curso
+            tercer año de Ingeniería en Ciencias de la Computación y Tecnologías de la Información. 
+            He realizado diferentes proyectos web tanto backend como frontend, manejo de bases de 
+            datos y desarrollo de videojuegos.
+            <br/>
+            <br/>
+            Me considero una persona bastante dedicada a la que le gusta aprovechar el tiempo al máximo. 
+            En mis tiempos libres suelo practicar deportes especialmente el balonmano, en el cual me he enfocado los 
+            ultimos 10 años de mi vida.
+          </div>
+          <div className='foto'/>
         </div>
       </div>
       <div className='TitProyectos'/>
@@ -104,7 +107,6 @@ function App() {
             <div className='tit'>Python</div>
             <div className='tit'>C++</div>
           </div>
-          
         </div>
       </div>
       <div className='TitHerramientas'/>
@@ -116,7 +118,11 @@ function App() {
         <Herramienta titulo={'Trello'} url1={trello} titulo1={'Vite'} url2={vite} titulo2={'Netlify'} url3={netli} titulo3={'React Native'} url4={rtN}/>
       </div>
       <div className='TitContact'/>
-      <div className='final'>diegofrancopacay@gmail.com</div>
+      <div className='final'>
+        <div className='correo'>
+          diegofrancopacay@gmail.com
+        </div>
+      </div>
     </div>
   )
 }

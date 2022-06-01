@@ -12,7 +12,7 @@ const Herramienta = ({titulo, titulo1, titulo2, titulo3, url1, url2, url3, url4 
 
   
   return (
-    <div className='Conten'>
+    <div data-aos='fade-up' className='Conten'>
       <div className='Cada'>
         <div className='tit'>{titulo}</div>
         <div style={{backgroundImage: `url(${url1})`}} className='img1'/>
