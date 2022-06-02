@@ -34,7 +34,7 @@ const Carusel = () => {
             <Item clase={'imagen3'}titulo={'Pixel Perfect'} url={pixel} tet={data[3]} link={'https://sweet-centaur-b20c52.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'CSS Only'} url={cssonly} tet={data[4]} ></Item>
             <Item clase={'imagen2'} titulo={'Dinners Ready'} url={dinners} tet={data[5]} link={'https://www.figma.com/proto/n3hrvdmhIbsDrzdMTCXtEw/Dinners-Ready?node-id=204%3A1039&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A1039'} sino={'Visita prototipo en figma'}></Item>
-            <Item clase={'imagen3'} titulo={'Simulando Netflix'} url={netf} tet={data[6]} link={'https://www.google.com/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen3'} titulo={'Simulando Netflix'} url={netf} tet={data[6]} link={'https://streaming.danielgcarrillo.xyz'} sino={'Visitar proyecto'}></Item>
       </Carousel>
     </div>
   )

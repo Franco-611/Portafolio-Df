@@ -120,7 +120,11 @@ function App() {
       <div className='TitContact'/>
       <div className='final'>
         <div className='correo'>
-          diegofrancopacay@gmail.com
+          <a href='mailTo:diegofrancopacay@gmail.com' target="_blank" rel='moopener'>diegofrancopacay@gmail.com</a>
+          <div className='logos'>
+            <a className='git' target="_blank" data-aos='fade-left' href={'https://github.com/Franco-611'}></a>
+            <a className='link1' target="_blank" data-aos='fade-right' href={'https://www.linkedin.com/in/diego-franco-153a62234/'}></a>
+          </div>
         </div>
       </div>
     </div>

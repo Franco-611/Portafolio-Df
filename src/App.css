@@ -232,7 +232,10 @@ li div{
   font-family: cursive;
   font-size:500%;
   color: rgb(247, 247, 247);
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .foto{
   width: 30%;
@@ -248,5 +251,28 @@ li div{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+.logos{
+  margin-top: 60px;
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.git{
+  width: 20%;
+  height: 100px;
+  background-image: url('../img/logoGit.png');
+  background-size: cover;
+  background-position: center;
+}
+.link1{
+  width: 20%;
+  height: 100px;
+  background-image: url('../img/logoLink.png');
+  background-size: 90%;
+  background-position: center;
 }
 
