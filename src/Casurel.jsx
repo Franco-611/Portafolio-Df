@@ -29,8 +29,8 @@ const Carusel = () => {
 
       <Carousel itemsToShow={1}>
             <Item clase={'imagen'} titulo={'Calculadora'} url={calcu} tet={data[0]} link={'https://super-churros-8ebb4f.netlify.app/'} sino={'Visitar proyecto'}></Item>
+            <Item clase={'imagen'} titulo={'Memoria'} url={memoria} tet={data[1]} link={'https://lucky-gingersnap-e268ec.netlify.app'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen1'} titulo={'Laberinto'} url={laberinto} tet={data[2]} link={'https://aesthetic-mooncake-56e2bd.netlify.app/'} sino={'Visitar proyecto'}></Item>
-            <Item clase={'imagen'} titulo={'Memoria'} url={memoria} tet={data[1]}></Item>
             <Item clase={'imagen3'}titulo={'Pixel Perfect'} url={pixel} tet={data[3]} link={'https://sweet-centaur-b20c52.netlify.app/'} sino={'Visitar proyecto'}></Item>
             <Item clase={'imagen'} titulo={'CSS Only'} url={cssonly} tet={data[4]} ></Item>
             <Item clase={'imagen2'} titulo={'Dinners Ready'} url={dinners} tet={data[5]} link={'https://www.figma.com/proto/n3hrvdmhIbsDrzdMTCXtEw/Dinners-Ready?node-id=204%3A1039&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=204%3A1039'} sino={'Visita prototipo en figma'}></Item>
